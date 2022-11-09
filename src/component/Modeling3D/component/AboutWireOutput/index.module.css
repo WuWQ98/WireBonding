@@ -1,0 +1,66 @@
+.container {
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 90%;
+    color: rgb(92, 94, 110);
+    height: 30px;
+}
+
+.btn {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(27, 134, 249);
+    box-shadow: 0 0 20px rgb(27, 134, 249);
+    transition: all 0.3s linear;
+    border-radius: 10px;
+    margin-left: 30%;
+    padding: 10px 0;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.output-shower-single-group {
+    height: calc(40% - 20px);
+    background-color: rgb(21, 23, 40);
+    overflow: auto;
+}
+
+.output-wrap-single-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 15px;
+    padding: 15px 0;
+}
+
+.output-graph-shower-single-group {
+    margin-top: 10px;
+    height: 35%;
+    background-color: rgb(21, 23, 40);
+    overflow: auto;
+}
+
+.output-graph-wrap {
+    height: calc(100% - 30px);
+}
+
+.output-shower-between-groups {
+    margin-top: 10px;
+    height: 25%;
+    background-color: rgb(21, 23, 40);
+    overflow: auto;
+}
+
+.output-wrap-between-groups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 15px;
+    padding: 15px 0;
+}

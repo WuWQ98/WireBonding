@@ -1,0 +1,11 @@
+.container {
+  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  background-color: rgb(21, 23, 40);
+}
+
+.activeNav {
+  border-bottom: 3px solid rgb(0, 136, 255);
+  background-color: rgb(24, 29, 47);
+}

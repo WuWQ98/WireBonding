@@ -1,0 +1,13 @@
+.container {
+    height: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    background-color: rgb(33, 36, 61);
+    padding: 5px 0;
+
+}
+
+.activeNav {
+    border-radius: 15px;
+    background-color: rgb(46, 46, 64);
+}

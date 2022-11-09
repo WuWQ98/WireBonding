@@ -1,0 +1,76 @@
+.container {
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    font-size: 90%;
+    color: rgb(92, 94, 110);
+    height: 30px;
+}
+
+.btn {
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(27, 134, 249);
+    box-shadow: 0 0 20px rgb(27, 134, 249);
+    transition: all 0.3s linear;
+    border-radius: 10px;
+    margin-left: 30%;
+    padding: 10px 0;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.wire-nameID-list-container {
+    height: calc(30% - 10px);
+    background-color: rgb(21, 23, 40);
+    overflow: auto;
+}
+
+.wire-nameID-list-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    padding: 15px;
+    /*justify-items: center;*/
+}
+
+.metal-gasket-nameID-list-container {
+    margin-top: 10px;
+    height: calc(30% - 10px);
+    background-color: rgb(21, 23, 40);
+    overflow: auto;
+}
+
+.metal-gasket-nameID-list-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    padding: 15px;
+}
+
+.mos-capacitance-nameID-list-container {
+    margin-top: 10px;
+    height: calc(30% - 10px);
+    background-color: rgb(21, 23, 40);
+    overflow: auto;
+}
+
+.mos-capacitance-nameID-list-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 15px;
+    padding: 15px;
+}
+
+.button-container {
+    margin-top: 10px;
+    height: 10%;
+    background-color: rgb(21, 23, 40);
+    padding-top: 20px;
+    overflow: auto;
+}

@@ -1,0 +1,17 @@
+.App {
+  background-color: rgb(55, 62, 87);
+  color: rgb(204, 200, 219);
+  font-family: "Source Sans Pro", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  gap: 10px;
+  padding: 10px;
+  overflow: auto;
+}
+
+.navigation {
+  background-color: rgb(21, 23, 40);
+  border-right: 1px solid #272a3a;
+}

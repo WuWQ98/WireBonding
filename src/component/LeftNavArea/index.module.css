@@ -1,0 +1,18 @@
+.ui-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 10px;
+}
+
+.primary-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.secondary-title {
+  color: rgb(92, 94, 110);
+  font-size: 90%;
+}
